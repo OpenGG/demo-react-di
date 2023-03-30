@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { useDI } from '../../Container';
+import { useDI } from '../../DIContainer';
 import { ILog } from '../../Services/Log/ILog';
 import { IPreview } from '../../Components/Preview/IPreview';
 

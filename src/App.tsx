@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './App.css';
-import { DIContainer } from './Container';
+import { DIContainer } from './DIContainer';
 import { alertLog } from './Services/Log/alertLog';
 import { consoleLog } from './Services/Log/consoleLog';
 import { BizXXXView } from './Biz/XXX/BizXXXView';
