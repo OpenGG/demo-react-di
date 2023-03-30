@@ -13,13 +13,17 @@ function App() {
 
   return (
     <div className="App">
-      <button onClick={() => setIsPre((b) => !b)}>{`render with ${
-        isPre ? '<pre>' : '<textarea>'
-      } element`}</button>
+      <p>
+        <button onClick={() => setIsPre((b) => !b)}>{`render with ${
+          isPre ? '<pre>' : '<textarea>'
+        } element`}</button>
+      </p>
 
-      <button onClick={() => setIsAlert((b) => !b)}>{`log to ${
-        isAlert ? 'alert' : 'console'
-      }`}</button>
+      <p>
+        <button onClick={() => setIsAlert((b) => !b)}>{`log to ${
+          isAlert ? 'alert' : 'console'
+        }`}</button>
+      </p>
 
       <DIContainer
         r={{
